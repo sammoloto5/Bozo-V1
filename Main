@@ -1,7 +1,7 @@
 --Bozo V1 by Quirckily and Koi
 local KnockbackTable = debug.getupvalue(require(game:GetService("ReplicatedStorage").TS.damage["knockback-util"]).KnockbackUtil.calculateKnockbackVelocity, 1)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Bozo V1 By NoobXNum1 And Koi", "GrapeTheme")
+local Window = Library.CreateLib("Bozo V1", "GrapeTheme")
 
 -- MAIN
 local Main = Window:NewTab("Main")
