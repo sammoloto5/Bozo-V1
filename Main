@@ -1,12 +1,13 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Koi/NoobXNum1 V1", "GrapeTheme")
+local Window = Library.CreateLib("Bozo V1 By NoobXNum1 And Koi", "GrapeTheme")
 
 -- MAIN
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
+--chams
 
-MainSection:NewButton("Esp", "I see all...", function()
+MainSection:NewButton("Chams", "I see all...see players trough walls", function()
     local players = game.Players:GetPlayers()
 
     for i,v in pairs(players) do
@@ -31,6 +32,7 @@ MainSection:NewButton("Esp", "I see all...", function()
      end)
 end)
 
+--speed
 
 MainSection:NewButton("Speed", "Currently slow and sprinting breaks it, ill fix in future.", function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 23
